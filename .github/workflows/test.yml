@@ -1,9 +1,9 @@
 name: Test
 "on":
-  push:
-    branches:
-      - master
-      - renovate/**
+  # push:
+  #   branches:
+  #     - master
+  #     - renovate/**
   pull_request:
     types:
       - opened
