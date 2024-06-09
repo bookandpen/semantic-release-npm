@@ -8,6 +8,8 @@ name: Release
       - "*.x"
 permissions:
   contents: read
+  packages: write
+  id-token: write
 jobs:
   release:
     name: release
